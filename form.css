@@ -1,0 +1,45 @@
+body{
+    background-color: aqua;
+}
+.container{
+    width: 360px;
+    height: 600px;
+    background-color: #fff;
+    margin: auto;
+}
+.form-container{
+    width: 300px;
+    margin-left: 15px;
+    display: flex;
+    margin-top: 15px;
+}
+.form-name{
+    
+    margin-top: 15px;
+    width: 300px;
+    
+}
+.form-name h2{
+    text-align: center;
+}
+.form-name input{
+    width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid gray;
+}
+.gender input{
+    width: auto;
+    padding: 0;
+    border: none;
+    border-radius: 0px;
+}
+.check input{
+    width: auto;
+}
+.button input{
+    margin-top: 10px;
+    background-color: aqua;
+    font-size: 20px; 
+}

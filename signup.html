@@ -5,38 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
+    <link rel="stylesheet" href="form.css">
 </head>
 <body>
     <div class="container">
         <div class="form-container">
-            <form action="">
+            <form action="" class="form-name">
                 <h2>Registration Form</h2>
-                <div>
-                <input type="text" placeholder="First name">
+                <div class="name">
+                <input type="text" placeholder="First name"><br><br>
                 <input type="text" placeholder="Last name">
             </div><br>
-            <div>
+            <div class="email">
                 <input type="Email" placeholder="Email or Phone"><br /><br>
                 <input type="password" placeholder="password"><br /><br>
                 <input type="password" placeholder="Conform password">
             </div>
-            <div>
+            <div class="date">
                 <h4>Date of birth</h4>
                 <input type="date">
             </div>
-            <div>
+            <div class="gender">
                 <h5>Gender</h5>
                 <input type="radio" id="male" name="Gender" value="male">
                 <label for="male">Male</label>
                 <input type="radio" id="female" name="Gender" value="female">
                 <label for="female">Female</label>
-            </div>
-            <div>
+            </div><br>
+            <div class="check">
                 <input type="checkbox" id="check" name="conform">
                 <label for="check">I agree to terms & condetions</label>
             </div>
-            <div>
-                <button>Submit</button>
+            <div class="button">
+                <input type="button" value="Submit">
             </div>
             </form>
         </div>
