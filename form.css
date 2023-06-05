@@ -8,6 +8,9 @@ body{
     margin: auto;
     border-radius: 5px;
 }
+.container:hover{
+    background-color: rgb(200, 200, 241);
+}
 .form-container{
     width: 300px;
     margin-left: 15px;
@@ -44,4 +47,7 @@ body{
     background-color: aqua;
     font-size: 20px;
     width: 100%;
+}
+.button button:hover{
+    background-color: rgb(200, 200, 241);
 }
